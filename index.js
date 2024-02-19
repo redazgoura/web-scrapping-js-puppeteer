@@ -6,7 +6,7 @@ async function exec(){
     const page = await browser.newPage();
 
     //we pass th url of the page that we want to go to 
-    await page.goto('https://www.instagram.com/4bdessam4d/');
+    await page.goto('');
 
     //to access dom elemnts
     await page.screenshot({ path: 'screenShoot.png', fullPage : false });
